@@ -1,0 +1,26 @@
+Pseudocode for "Course Info"
+Luis Amador
+10/22/24
+
+Start
+CREATE VARIABLES 'Course ID', 'Course name'
+CREATE DIRECTORY "Course_info"
+CREATE FUNCTION "New_Course_Adder"
+    PROMPT user for:
+    Course ID and save input as variable
+    Course name and save input as variable
+    THEN:
+    Combine all strings into one and add to Directory: "Course_info"
+    Prompt user: "Would you like to add the info of another course"
+    IF yes than loop
+    IF no then end function
+
+CREATE main Function:
+    CALL "New_Course_Adder"
+    once the user has added their courses:
+    PROMPT user for the subject they wish to see the classes for:
+    Using the Subject given, all strings with given Subject in them will be DISPLAYEDa in a list
+
+
+
+
